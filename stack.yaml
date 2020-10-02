@@ -1,0 +1,11 @@
+resolver: lts-16.16
+
+packages:
+- .
+
+extra-deps: []
+
+ghc-options:
+    # All packages
+    "$locals": -Wall
+    "$targets": -Werror
